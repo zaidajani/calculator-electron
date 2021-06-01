@@ -15,6 +15,7 @@ const createWindow = () => {
     webPreferences: {
       devTools: false,
     },
+    icon: `${__dirname}/calc.png`
   });
 
   // and load the index.html of the app.
